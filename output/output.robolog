@@ -1,0 +1,477 @@
+V 0.0.4
+T 2024-07-07T21:48:29.298+00:00
+ID 1|a5a5bba8-3caa-11ef-b65f-00155d536db7
+I "sys.platform=linux"
+I "python=3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:40:32) [GCC 12.3.0]"
+M a:"main.py - carregar_work_item"
+SR a|0.001
+M c:"Collect tasks"
+M d:"setup"
+M e:""
+P b:c|d|e|e|0
+ST b|0.001
+M f:"regular"
+M g:"\nCollecting task carregar_work_item from: /home/zero/otomatika/RPA-Challenge/src/main.py\n"
+C f|g|0.002
+M h:"Error when importing module 'main'\n  at location '/home/zero/otomatika/RPA-Challenge/src/main.py'\n  (with root: '/home/zero/otomatika/RPA-Challenge/src')."
+M j:"import_path"
+M k:"robocorp.tasks"
+M l:"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_collect_tasks.py"
+P i:j|k|l|e|107
+L E|h|i|107|0.071
+M m:"ModuleNotFoundError: No module named 'pandas'"
+STB m|0.071
+M n:"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/runpy.py"
+M o:"_run_module_as_main"
+M p:"return _run_code(code, main_globals, None,"
+TBE n|196|o|p
+M q:"mod_name"
+M r:"str"
+M s:"'robocorp.tasks.__main__'"
+TBV q|r|s
+M t:"alter_argv"
+M u:"bool"
+M v:"True"
+TBV t|u|v
+M w:"mod_spec"
+M x:"ModuleSpec"
+M y:"ModuleSpec(name='robocorp.tasks.__main__', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7facef67f610>, origin='/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/__main__.py')"
+TBV w|x|y
+M z:"code"
+M A:"<code object <module> at 0x7facef6dd840, file \"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/__main__.py\", line 1>"
+TBV z|z|A
+M B:"main_globals"
+M C:"dict"
+M D:"{'__name__': '__main__', '__doc__': None, '__package__': 'robocorp.tasks', '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x7facef67f610>, '__spec__': ModuleSpec(name='robocorp.tasks.__main__', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7facef67f610>, origin='/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/__main__.py'), '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': '/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/__main__.py', '__cached__': '/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/__pycache__/__main__.cpython-310.pyc', 'main': <function main at 0x7facef334550>}"
+TBV B|C|D
+M E:"_run_code"
+M F:"exec(code, run_globals)"
+TBE n|86|E|F
+TBV z|z|A
+M G:"run_globals"
+TBV G|C|D
+M H:"init_globals"
+M I:"NoneType"
+M J:"None"
+TBV H|I|J
+M K:"'__main__'"
+TBV q|r|K
+TBV w|x|y
+M L:"pkg_name"
+M M:"'robocorp.tasks'"
+TBV L|r|M
+M N:"script_name"
+TBV N|I|J
+M O:"loader"
+M P:"SourceFileLoader"
+M Q:"<_frozen_importlib_external.SourceFileLoader object at 0x7facef67f610>"
+TBV O|P|Q
+M R:"fname"
+M S:"'/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/__main__.py'"
+TBV R|r|S
+M T:"cached"
+M U:"'/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/__pycache__/__main__.cpython-310.pyc'"
+TBV T|r|U
+M V:"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/__main__.py"
+M W:"<module>"
+M X:"main()"
+TBE V|4|W|X
+M Y:"__name__"
+TBV Y|r|K
+M Z:"__doc__"
+TBV Z|I|J
+M 0:"__package__"
+TBV 0|r|M
+M 1:"__loader__"
+TBV 1|P|Q
+M 2:"__spec__"
+TBV 2|x|y
+M 3:"__annotations__"
+M 4:"{}"
+TBV 3|C|4
+M 5:"__builtins__"
+M 6:"module"
+M 7:"<module 'builtins' (built-in)>"
+TBV 5|6|7
+M 8:"__file__"
+TBV 8|r|S
+M 9:"__cached__"
+TBV 9|r|U
+M aa:"main"
+M ab:"function"
+M ac:"<function main at 0x7facef334550>"
+TBV aa|ab|ac
+M ad:"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/cli.py"
+M ae:"returncode = dispatcher.process_args(args, pm=plugin_manager)"
+TBE ad|121|aa|ae
+M af:"args"
+M ag:"list"
+M ah:"['run', '/home/zero/otomatika/RPA-Challenge/src/main.py', '-t', 'carregar_work_item']"
+TBV af|ag|ah
+M ai:"exit"
+TBV ai|u|v
+M aj:"argument_dispatcher"
+TBV aj|I|J
+M ak:"plugin_manager"
+TBV ak|I|J
+M al:"dispatcher"
+M am:"_ArgDispatcher"
+M an:"<robocorp.tasks._argdispatch._ArgDispatcher object at 0x7facee86cd90>"
+TBV al|am|an
+M ao:"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_argdispatch.py"
+M ap:"process_args"
+M aq:"return self._dispatch(parsed, pm)"
+TBE ao|230|ap|aq
+M ar:"self"
+TBV ar|am|an
+TBV af|ag|ah
+M as:"pm"
+TBV as|I|J
+M at:"parsed"
+M au:"Namespace"
+M av:"Namespace(command='run', path='/home/zero/otomatika/RPA-Challenge/src/main.py', glob=None, task_name=['carregar_work_item'], output_dir='', max_log_files=5, max_log_file_size='1MB', console_colors='auto', log_output_to_stdout='', json_input=None, preload_module=None, no_status_rc=False, teardown_dump_threads_timeout=None, teardown_interrupt_timeout=None, os_exit=None)"
+TBV at|au|av
+M aw:"_dispatch"
+M ax:"return method(**dct)"
+TBE ao|25|aw|ax
+TBV ar|am|an
+TBV at|au|av
+TBV as|I|J
+M ay:"method"
+M az:"<function run at 0x7facee873370>"
+TBV ay|ab|az
+M aA:"dct"
+M aB:"{'path': '/home/zero/otomatika/RPA-Challenge/src/main.py', 'glob': None, 'task_name': ['carregar_work_item'], 'output_dir': '', 'max_log_files': 5, 'max_log_file_size': '1MB', 'console_colors': 'auto', 'log_output_to_stdout': '', 'json_input': None, 'preload_module': None, 'no_status_rc': False, 'teardown_dump_threads_timeout': None, 'teardown_interrupt_timeout': None, 'os_exit': None}"
+TBV aA|C|aB
+M aC:"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_commands.py"
+M aD:"run"
+M aE:"tasks: List[ITask] = list(collect_tasks(pm, p, task_names, glob))"
+TBE aC|416|aD|aE
+M aF:"output_dir"
+M aG:"'/home/zero/otomatika/RPA-Challenge/output'"
+TBV aF|r|aG
+M aH:"path"
+M aI:"'/home/zero/otomatika/RPA-Challenge/src/main.py'"
+TBV aH|r|aI
+M aJ:"task_name"
+M aK:"'carregar_work_item'"
+TBV aJ|r|aK
+M aL:"max_log_files"
+M aM:"int"
+M aN:"5"
+TBV aL|aM|aN
+M aO:"max_log_file_size"
+M aP:"'1MB'"
+TBV aO|r|aP
+M aQ:"console_colors"
+M aR:"'auto'"
+TBV aQ|r|aR
+M aS:"log_output_to_stdout"
+M aT:"''"
+TBV aS|r|aT
+M aU:"no_status_rc"
+M aV:"False"
+TBV aU|u|aV
+M aW:"teardown_dump_threads_timeout"
+M aX:"float"
+M aY:"5.0"
+TBV aW|aX|aY
+M aZ:"teardown_interrupt_timeout"
+M a0:"-1.0"
+TBV aZ|aX|a0
+M a1:"os_exit"
+TBV a1|r|aT
+M a2:"additional_arguments"
+TBV a2|I|J
+M a3:"preload_module"
+TBV a3|I|J
+M a4:"glob"
+TBV a4|I|J
+M a5:"json_input"
+TBV a5|I|J
+M a6:"PluginManager"
+M a7:"<robocorp.tasks._customization._plugin_manager.PluginManager object at 0x7facef6d10c0>"
+TBV as|a6|a7
+M a8:"copy"
+M a9:"<module 'copy' from '/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/copy.py'>"
+TBV a8|6|a9
+M ba:"console"
+M bb:"<module 'robocorp.log.console' from '/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/console.py'>"
+TBV ba|6|bb
+M bc:"redirect"
+M bd:"<module 'robocorp.log.redirect' from '/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/redirect.py'>"
+TBV bc|6|bd
+M be:"read_pyproject_toml"
+M bf:"<function read_pyproject_toml at 0x7facee714160>"
+TBV be|ab|bf
+M bg:"read_robocorp_auto_log_config"
+M bh:"<function read_robocorp_auto_log_config at 0x7facee714430>"
+TBV bg|ab|bh
+M bi:"interrupt_on_timeout"
+M bj:"<function interrupt_on_timeout at 0x7facee715d80>"
+TBV bi|ab|bj
+M bk:"collect_tasks"
+M bl:"<function collect_tasks at 0x7facee716320>"
+TBV bk|ab|bl
+M bm:"RunConfig"
+M bn:"type"
+M bo:"<class 'robocorp.tasks._config.RunConfig'>"
+TBV bm|bn|bo
+M bp:"set_config"
+M bq:"<function set_config at 0x7facee7164d0>"
+TBV bp|ab|bq
+M br:"RobocorpTasksCollectError"
+M bs:"<class 'robocorp.tasks._exceptions.RobocorpTasksCollectError'>"
+TBV br|bn|bs
+M bt:"after_all_tasks_run"
+M bu:"SessionCallback"
+M bv:"<robocorp.tasks._hooks.SessionCallback object at 0x7facee739030>"
+TBV bt|bu|bv
+M bw:"after_task_run"
+M bx:"Callback"
+M by:"<robocorp.tasks._callback.Callback object at 0x7facee738fd0>"
+TBV bw|bx|by
+M bz:"before_all_tasks_run"
+M bA:"<robocorp.tasks._hooks.SessionCallback object at 0x7facee738f10>"
+TBV bz|bu|bA
+M bB:"before_task_run"
+M bC:"<robocorp.tasks._callback.Callback object at 0x7facee738f40>"
+TBV bB|bx|bC
+M bD:"setup_cli_auto_logging"
+M bE:"<function setup_cli_auto_logging at 0x7facee716f80>"
+TBV bD|ab|bE
+M bF:"setup_log_output"
+M bG:"<function setup_log_output at 0x7facee716440>"
+TBV bF|ab|bG
+M bH:"setup_log_output_to_port"
+M bI:"<function setup_log_output_to_port at 0x7facee7170a0>"
+TBV bH|ab|bI
+M bJ:"Status"
+M bK:"EnumMeta"
+M bL:"<enum 'Status'>"
+TBV bJ|bK|bL
+M bM:"Context"
+M bN:"<class 'robocorp.tasks._task.Context'>"
+TBV bM|bn|bN
+M bO:"set_current_task"
+M bP:"<function set_current_task at 0x7facee717370>"
+TBV bO|ab|bP
+M bQ:"__tracebackhide__"
+M bR:"1"
+TBV bQ|aM|bR
+M bS:"p"
+M bT:"PosixPath"
+M bU:"PosixPath('/home/zero/otomatika/RPA-Challenge/src/main.py')"
+TBV bS|bT|bU
+M bV:"context"
+M bW:"<robocorp.tasks._task.Context object at 0x7facee86e3e0>"
+TBV bV|bM|bW
+M bX:"v"
+M bY:"'-1'"
+TBV bX|r|bY
+M bZ:"os_exit_enum"
+M b0:"_OsExit"
+M b1:"<_OsExit.NO: 0>"
+TBV bZ|b0|b1
+M b2:"used_env"
+TBV b2|u|v
+M b3:"faulthandler"
+M b4:"<module 'faulthandler' (built-in)>"
+TBV b3|6|b4
+M b5:"log"
+M b6:"<module 'robocorp.log' from '/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/__init__.py'>"
+TBV b5|6|b6
+M b7:"task_names"
+M b8:"['carregar_work_item']"
+TBV b7|ag|b8
+M b9:"task_or_tasks"
+M ca:"'task'"
+TBV b9|r|ca
+M cb:"pyproject_path_and_contents"
+TBV cb|I|J
+M cc:"config"
+M cd:"DefaultAutoLogConfig"
+M ce:"{\n  \"log_filter_rules\": [],\n  \"default_library_filter_kind\": \"log_on_project_call\"\n}"
+TBV cc|cd|ce
+M cf:"pyproject_toml_contents"
+TBV cf|C|4
+M cg:"output_dir_path"
+M ch:"PosixPath('/home/zero/otomatika/RPA-Challenge/output')"
+TBV cg|bT|ch
+M ci:"run_config"
+M cj:"<robocorp.tasks._config.RunConfig object at 0x7facee73b040>"
+TBV ci|bm|cj
+M ck:"json_loaded_arguments"
+TBV ck|I|J
+M cl:"e"
+M cm:"ModuleNotFoundError"
+M cn:"ModuleNotFoundError(\"No module named 'pandas'\")"
+TBV cl|cm|cn
+M co:"retcode"
+M cp:"22"
+TBV co|aM|cp
+M cq:"run_name"
+M cr:"'main.py - carregar_work_item'"
+TBV cq|r|cr
+M cs:"run_status"
+M ct:"'ERROR'"
+TBV cs|r|ct
+M cu:"setup_message"
+M cv:"\"No module named 'pandas'\""
+TBV cu|r|cv
+M cw:"import_path(path, root=root)"
+TBE l|214|bk|cw
+TBV as|a6|a7
+TBV aH|bT|bU
+TBV a4|I|J
+M cx:"_constants"
+M cy:"<module 'robocorp.tasks._constants' from '/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_constants.py'>"
+TBV cx|6|cy
+M cz:"_hooks"
+M cA:"<module 'robocorp.tasks._hooks' from '/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_hooks.py'>"
+TBV cz|6|cA
+M cB:"task_names_as_set"
+M cC:"set"
+M cD:"{'carregar_work_item'}"
+TBV cB|cC|cD
+M cE:"accept_task"
+M cF:"<function collect_tasks.<locals>.accept_task at 0x7facee79dc60>"
+TBV cE|ab|cF
+M cG:"on_func_found"
+M cH:"<function collect_tasks.<locals>.on_func_found at 0x7facee79db40>"
+TBV cG|ab|cH
+M cI:"root"
+M cJ:"PosixPath('/home/zero/otomatika/RPA-Challenge/src')"
+TBV cI|bT|cJ
+TBV b7|ag|b8
+M cK:"spec.loader.exec_module(mod)  # type: ignore[union-attr]"
+TBE l|105|j|cK
+TBV aH|bT|bU
+TBV cI|bT|cJ
+M cL:"importlib"
+M cM:"<module 'importlib' from '/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/importlib/__init__.py'>"
+TBV cL|6|cM
+M cN:"module_name"
+M cO:"'main'"
+TBV cN|r|cO
+M cP:"mod"
+M cQ:"<module 'main' from '/home/zero/otomatika/RPA-Challenge/src/main.py'>"
+TBV cP|6|cQ
+M cR:"meta_importer"
+M cS:"RewriteHook"
+M cT:"<robocorp.log._rewrite_importhook.RewriteHook object at 0x7facee73b340>"
+TBV cR|cS|cT
+M cU:"spec"
+M cV:"ModuleSpec(name='main', loader=<robocorp.log._rewrite_importhook.RewriteHook object at 0x7facee73b340>, origin='/home/zero/otomatika/RPA-Challenge/src/main.py')"
+TBV cU|x|cV
+M cW:"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_rewrite_importhook.py"
+M cX:"exec_module"
+M cY:"exec(co, module.__dict__)"
+TBE cW|197|cX|cY
+TBV ar|cS|cT
+TBV 6|6|cQ
+M cZ:"fn"
+TBV cZ|bT|bU
+M c0:"write"
+TBV c0|u|v
+M c1:"cache_dir"
+M c2:"PosixPath('/home/zero/otomatika/RPA-Challenge/src/__pycache__')"
+TBV c1|bT|c2
+M c3:"ok"
+TBV c3|u|v
+M c4:"filter_kind"
+M c5:"FilterKind"
+M c6:"<FilterKind.full_log: 'full'>"
+TBV c4|c5|c6
+M c7:"cache_name"
+M c8:"'main-full.cpython-310-log-0.0.25.pyc'"
+TBV c7|r|c8
+M c9:"pyc"
+M da:"PosixPath('/home/zero/otomatika/RPA-Challenge/src/__pycache__/main-full.cpython-310-log-0.0.25.pyc')"
+TBV c9|bT|da
+M db:"co"
+M dc:"<code object <module> at 0x7facee79aef0, file \"/home/zero/otomatika/RPA-Challenge/src/main.py\", line 1>"
+TBV db|z|dc
+M dd:"/home/zero/otomatika/RPA-Challenge/src/main.py"
+M de:"from src.utils import load_config, save_to_excel"
+TBE dd|2|W|de
+TBV Y|r|cO
+TBV Z|I|J
+TBV 0|r|aT
+TBV 1|cS|cT
+TBV 2|x|cV
+TBV 8|r|aI
+M df:"'/home/zero/otomatika/RPA-Challenge/src/__pycache__/main.cpython-310.pyc'"
+TBV 9|r|df
+M dg:"{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>, origin='built-in'), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'breakpoint': <built-in function breakpoint>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'aiter': <built-in function aiter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'anext': <built-in function anext>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'MemoryError': <class 'MemoryError'>, 'BufferError': <class 'BufferError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'EncodingWarning': <class 'EncodingWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'copyright': Copyright (c) 2001-2023 Python Software Foundation.\nAll Rights Reserved.\n\nCopyright (c) 2000 BeOpen.com.\nAll Rights Reserved.\n\nCopyright (c) 1995-2001 Corporation for National Research Initiatives.\nAll Rights Reserved.\n\nCopyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.\nAll Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands\n    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object.}"
+TBV 5|C|dg
+M dh:"NewsScraper"
+M di:"<class 'src.scraper.NewsScraper'>"
+TBV dh|bn|di
+TBE cW|197|cX|cY
+TBV ar|cS|cT
+M dj:"<module 'src.utils' from '/home/zero/otomatika/RPA-Challenge/src/utils.py'>"
+TBV 6|6|dj
+M dk:"PosixPath('/home/zero/otomatika/RPA-Challenge/src/utils.py')"
+TBV cZ|bT|dk
+TBV c0|u|v
+TBV c1|bT|c2
+TBV c3|u|v
+TBV c4|c5|c6
+M dl:"'utils-full.cpython-310-log-0.0.25.pyc'"
+TBV c7|r|dl
+M dm:"PosixPath('/home/zero/otomatika/RPA-Challenge/src/__pycache__/utils-full.cpython-310-log-0.0.25.pyc')"
+TBV c9|bT|dm
+M dn:"<code object <module> at 0x7facedb042f0, file \"/home/zero/otomatika/RPA-Challenge/src/utils.py\", line 1>"
+TBV db|z|dn
+M do:"/home/zero/otomatika/RPA-Challenge/src/utils.py"
+M dp:"import pandas as pd"
+TBE do|2|W|dp
+M dq:"'src.utils'"
+TBV Y|r|dq
+TBV Z|I|J
+M dr:"'src'"
+TBV 0|r|dr
+TBV 1|cS|cT
+M ds:"ModuleSpec(name='src.utils', loader=<robocorp.log._rewrite_importhook.RewriteHook object at 0x7facee73b340>, origin='/home/zero/otomatika/RPA-Challenge/src/utils.py')"
+TBV 2|x|ds
+M dt:"'/home/zero/otomatika/RPA-Challenge/src/utils.py'"
+TBV 8|r|dt
+M du:"'/home/zero/otomatika/RPA-Challenge/src/__pycache__/utils.cpython-310.pyc'"
+TBV 9|r|du
+TBV 5|C|dg
+M dv:"yaml"
+M dw:"<module 'yaml' from '/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/yaml/__init__.py'>"
+TBV dv|6|dw
+ETB 0.077
+M dx:"stderr"
+M dy:"Traceback (most recent call last):\n"
+C dx|dy|0.081
+C dx|e|0.081
+M dz:"  File \"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_commands.py\", line 416, in run\n    tasks: List[ITask] = list(collect_tasks(pm, p, task_names, glob))\n"
+C dx|dz|0.081
+C dx|e|0.081
+M dA:"  File \"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_collect_tasks.py\", line 214, in collect_tasks\n    import_path(path, root=root)\n"
+C dx|dA|0.081
+C dx|e|0.081
+M dB:"  File \"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_collect_tasks.py\", line 105, in import_path\n    spec.loader.exec_module(mod)  # type: ignore[union-attr]\n"
+C dx|dB|0.081
+C dx|e|0.081
+M dC:"  File \"/home/zero/.robocorp/holotree/87a24f7_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_rewrite_importhook.py\", line 197, in exec_module\n    exec(co, module.__dict__)\n"
+C dx|dC|0.082
+C dx|e|0.082
+M dD:"  File \"/home/zero/otomatika/RPA-Challenge/src/main.py\", line 2, in <module>\n    from src.utils import load_config, save_to_excel\n"
+C dx|dD|0.082
+C dx|e|0.082
+C dx|dC|0.082
+C dx|e|0.082
+M dE:"  File \"/home/zero/otomatika/RPA-Challenge/src/utils.py\", line 2, in <module>\n    import pandas as pd\n"
+C dx|dE|0.082
+C dx|e|0.082
+M dF:"ModuleNotFoundError: No module named 'pandas'\n"
+C dx|dF|0.082
+C dx|e|0.082
+M dG:"ERROR"
+M dH:"No module named 'pandas'"
+ET dG|dH|0.082
+ER dG|0.083

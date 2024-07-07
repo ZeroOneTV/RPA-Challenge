@@ -1,0 +1,5 @@
+robocloud:
+  workitem:
+    search_phrase: "COVID-19"
+    category: "health"
+    months: 3

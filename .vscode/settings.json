@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/zero/otomatika/RPA-Challenge/."
+    ],
+    "python.terminal.activateEnvironment": false
+}
