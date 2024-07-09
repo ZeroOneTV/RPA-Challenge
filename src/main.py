@@ -3,8 +3,8 @@ from robocorp.tasks import get_output_dir, task
 import logging
 
 from src.scraper import NewsScraper
-from src.utils import category_exist
-# Configuração de logging
+from src.utils import category_exist, verifyMonthData
+
 logging.basicConfig(level=logging.INFO, filename='../logs/app.log', 
                     format='%(asctime)s %(levelname)s:%(message)s')
 
@@ -39,14 +39,16 @@ def consumer():
             category = item.payload["category"]
             months = item.payload["months"]
 
-            print(f"Processing order: {phrase}, {category}, {months}")
+            logging.info(f"Processing order: {phrase}, {category}, {months}")
 
             assert phrase, "Phrase is missing or empty"
             assert category_exist(category), "Category is missing, empty or invalid option"
             assert months, "Months is missing or empty"
 
-            nscraper = NewsScraper()
-
+            nscraper = NewsScraper(log=logging)
+            convertedMonthToDateTime = verifyMonthData(months)
+            itemsFromSearch = nscraper.scrape_news(phrase,category,convertedMonthToDateTime)
+            logging.info(itemsFromSearch)
 
             item.done()
         except AssertionError as err:

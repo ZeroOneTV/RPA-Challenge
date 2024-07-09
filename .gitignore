@@ -15,3 +15,6 @@ devdata/work-items-out/
 testrun/*
 .~lock*
 *.pkl
+rcc.exe
+__pycache__
+docs
